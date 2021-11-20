@@ -2,6 +2,7 @@
 layout: post
 title:  "St John’s Wort"
 show_title: true
+category: PMS
 ---
 
 Äkta johannesört ⌁ *Hypericum perforatum*

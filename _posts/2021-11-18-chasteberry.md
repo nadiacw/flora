@@ -2,6 +2,7 @@
 layout: post
 title: "Chasteberry"
 show_title: true
+category: cycle balance
 ---
 
 Kyskhetsträd/Munkpeppar ⌁ *Vitex Agnus-Castus*

@@ -27,7 +27,7 @@ layout: default
 	<div class="col-lg-6 col-md-6 col-">
 		<div class="post-text-container">
 			{% if site.post_settings.show_title and page.show_title != false %}
-				<div class="post-title">{{ page.title }}</div>
+				<div class="post-title">{{ page.title }} ⌁ <span class="tags">{{ page.category }}</span> </div>
 			{% elsif site.post_settings.show_title == false and page.show_title %}
 				<div class="post-title">{{ page.title }}</div>
 			{% endif %}

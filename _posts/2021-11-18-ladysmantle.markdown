@@ -2,6 +2,7 @@
 layout: post
 title:  "Lady's Mantle"
 show_title: true
+category: menstrual cramps
 ---
 
 Daggkåpa ⌁ *Alchemilla vulgaris*

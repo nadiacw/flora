@@ -34,6 +34,10 @@ layout: default
 								{% elsif site.grid_settings.display == "square-og" %}
 									<img src="{{ post_image.path | relative_url }}" class="img-fluid grid-square-og" alt="{{ post.title }}">
 								{% endif %}
+								<div class="over-image">
+									<p class="tags">{{ post.category }}</p>
+									{{ post.title }}
+								</div>
 							</a>
 						</div>
 					</div>

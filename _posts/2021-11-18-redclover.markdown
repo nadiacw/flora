@@ -2,6 +2,7 @@
 layout: post
 title:  "Red Clover"
 show_title: true
+category: cycle balance
 ---
 
 Rödklöver ⌁ *Trifolium pratense*

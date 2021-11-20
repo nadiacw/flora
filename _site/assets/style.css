@@ -2,7 +2,7 @@ body { background-color: white; }
 
 .header .container { padding-top: 1em; }
 
-.navbar-light .navbar-brand { color: blue; }
+.navbar-light .navbar-brand { color: orangered; }
 
 .navbar { background-color: white; }
 
@@ -26,7 +26,9 @@ body { background-color: white; }
 
 @media (min-width: 1200px) { .image-container { height: 380px; width: 380px; overflow: hidden; } }
 
-.post-title { font-size: 1.5em; color: gray; }
+.post-title { font-weight: 700; font-size: xxx-large; color: orangered; opacity: 50%; }
+
+.post-title .tags { opacity: 30%; }
 
 .post-date { font-size: 0.9em; color: darkgray; }
 
@@ -37,5 +39,9 @@ body { background-color: white; }
 .post-text-container { margin-top: 0.5em; }
 
 .page-title { font-size: 2em; color: gray; margin-bottom: 0.5em; }
+
+.over-image { font-weight: 700; font-size: xxx-large; color: orangered; opacity: 50%; position: absolute; bottom: 20px; left: 20px; right: 20px; }
+
+.over-image .tags { font-size: xx-large; opacity: 30%; }
 
 /*# sourceMappingURL=style.css.map */

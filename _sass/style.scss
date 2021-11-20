@@ -1,21 +1,21 @@
 // colors (edit these to change the colors of parts of the site's design)
-$body-bg-color: white;	// background color
-$header-title-color: blue;	// color of title of website
-$header-bg-color: white;	// color of nav bar
-$footer-color: silver;	// color of footer icons
-$post-title-color: gray;	// color of post titles
-$post-date-color: darkgray;	// color of post dates
+$body-bg-color: white; // background color
+$header-title-color: orangered; // color of title of website
+$header-bg-color: white; // color of nav bar
+$footer-color: silver; // color of footer icons
+$post-title-color: gray; // color of post titles
+$post-date-color: darkgray; // color of post dates
 $page-title-color: gray; // color of page titles
 
-body{
-	background-color: white;	
+body {
+	background-color: white;
 }
 
 .header .container {
-  	padding-top: 1em; // edit to move nav bar up or down
+	padding-top: 1em; // edit to move nav bar up or down
 }
 
-.navbar-light .navbar-brand{
+.navbar-light .navbar-brand {
 	color: $header-title-color;
 }
 
@@ -23,23 +23,23 @@ body{
 	background-color: white;
 }
 
-.footer{
+.footer {
 	margin-top: 4em;
 }
 
-.social-media-list li{
+.social-media-list li {
 	display: inline;
 	margin-right: 1em;
 }
 
-.svg-icon{
+.svg-icon {
 	fill: $footer-color;
 	width: 1em;
 }
 
 .grid-square-og {
 	height: 100%;
-    object-fit: contain;
+	object-fit: contain;
 }
 
 .grid-masonry {
@@ -47,68 +47,90 @@ body{
 	padding-top: 0.5em;
 }
 
-.image-container{
+.image-container {
 	display: inline-block;
 	padding: 0.5em;
 }
 
-@media (min-width: 576px){
+@media (min-width: 576px) {
 	.image-container {
-	  	height: 183px;
-	  	width: 183px;
-	  	overflow: hidden;
+		height: 183px;
+		width: 183px;
+		overflow: hidden;
 	}
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
 	.image-container {
-	  	height: 240px;
-	  	width: 240px;
-	  	overflow: hidden;
+		height: 240px;
+		width: 240px;
+		overflow: hidden;
 	}
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
 	.image-container {
-	  	height: 322px;
-	  	width: 322px;
-	  	overflow: hidden;
+		height: 322px;
+		width: 322px;
+		overflow: hidden;
 	}
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
 	.image-container {
-	  	height: 380px;
-	  	width: 380px;
-	  	overflow: hidden;
+		height: 380px;
+		width: 380px;
+		overflow: hidden;
 	}
 }
 
-.post-title{
-	font-size: 1.5em;
-	color: $post-title-color;
+.post-title {
+	// font-size: 1.5em;
+	font-weight: 700;
+	font-size:xxx-large;
+	color: orangered;
+	opacity: 50%;
+}
+.post-title .tags {
+	opacity: 30%;
 }
 
-.post-date{
+
+.post-date {
 	font-size: 0.9em;
 	color: $post-date-color;
 }
 
-.post-content{
+.post-content {
 	margin-top: 1em;
 }
 
-.post img{
+.post img {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 
-.post-text-container{
-	margin-top: 0.5em;	// edit to move post title/date/content up or down
+.post-text-container {
+	margin-top: 0.5em; // edit to move post title/date/content up or down
 }
 
-.page-title{
+.page-title {
 	font-size: 2em;
 	color: $page-title-color;
 	margin-bottom: 0.5em;
+}
+
+.over-image {
+	font-weight: 700;
+	font-size:xxx-large;
+	color: orangered;
+	opacity: 50%;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+}
+.over-image .tags {
+	font-size:xx-large;
+	opacity: 30%;
 }
